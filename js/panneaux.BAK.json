@@ -1,0 +1,212 @@
+{
+    "1": {
+        "name": "Entre passion et génie",
+        "panneau": "assets/panneaux/01.jpg",
+        "audio": "assets/audio/01.webm",
+        "vu": false,
+        "question": "",
+        "reponse": {
+            "1": "",
+            "2": "",
+            "3": ""
+        },
+        "valide": "",
+        "repondu": "0"
+    },
+    "2": {
+        "name": "Les grandes dates",
+        "panneau": "assets/panneaux/02.jpg",
+        "audio": "assets/audio/02.webm",
+        "vu": false,
+        "question": "En quelle année se sont mariés Pierre et Marie Curie ?",
+        "reponse": {
+            "1": "1895",
+            "2": "1893",
+            "3": "1906"
+        },
+        "valide": "1",
+        "repondu": "0"
+
+    },
+    "3": {
+        "name": "La jeunesse de Pierre",
+        "panneau": "assets/panneaux/03.jpg",
+        "audio": "assets/audio/03.webm",
+        "vu": false,
+        "question": "Quel est le sujet de la première publication scientifique de Pierre ?",
+        "reponse": {
+            "1": "Les rayons ultra-violet",
+            "2": "La radiocativité",
+            "3": "Le rayonnement infrarouge"
+        },
+        "valide": "3",
+        "repondu": "0"
+    },
+    "4": {
+        "name": "La jeunesse de Marie",
+        "panneau": "assets/panneaux/04.jpg",
+        "audio": "assets/audio/04.webm",
+        "vu": false,
+        "question": "Qui Marie Curie a-t-elle perdu à ses 10 ans ?",
+        "reponse": {
+            "1": "Son père",
+            "2": "Sa mère et sa sœur",
+            "3": "Son meilleur ami"
+        },
+        "valide": "2",
+        "repondu": "0"
+    },
+    "5": {
+        "name": "Pierre le physicien",
+        "panneau": "assets/panneaux/05.jpg",
+        "audio": "assets/audio/05.webm",
+        "vu": false,
+        "question": "Qu'est ce que la pyroélectricité ?",
+        "reponse": {
+            "1": "Le changement de polarisation du quartz quand la pression de l'air change",
+            "2": "Le changement de polarisation du quartz quand la température change",
+            "3": "Le changement de température du quart en fonction de la lumière"
+        },
+        "valide": "2",
+        "repondu": "0"
+    },
+    "6": {
+        "name": "Les inventions de Pierre",
+        "panneau": "assets/panneaux/06.jpg",
+        "audio": "assets/audio/06.webm",
+        "vu": false,
+        "question": "A quoi sert l'éléctroscope a feuille d'or ?",
+        "reponse": {
+            "1": "Mesurer des charges électriques",
+            "2": "Mesurer la puissance d'un aimant",
+            "3": "Mesurer la quantité d'or dans un objet"
+        },
+        "valide": "1",
+        "repondu": "0"
+    },
+    "7": {
+        "name": "La rencontre",
+        "panneau": "assets/panneaux/07.jpg",
+        "audio": "assets/audio/07.webm",
+        "vu": false,
+        "question": "Où se sont mariés Pierre et Marie Curie ?",
+        "reponse": {
+            "1": "Paris",
+            "2": "Varsovie",
+            "3": "Sceaux"
+        },
+        "valide": "3",
+        "repondu": "0"
+    },
+    "8": {
+        "name": "Vers le prix Nobel",
+        "panneau": "assets/panneaux/08.jpg",
+        "audio": "assets/audio/08.webm",
+        "vu": false,
+        "question": "En quelle année ont-ils obtenu le prix nobel ?",
+        "reponse": {
+            "1": "1903",
+            "2": "1906",
+            "3": "1897"
+        },
+        "valide": "1",
+        "repondu": "0"
+    },
+    "9": {
+        "name": "Le prix nobel de physique",
+        "panneau": "assets/panneaux/09.jpg",
+        "audio": "assets/audio/09.webm",
+        "vu": false,
+        "question": "Avec qui d'autre ont-ils obtenu le prix nobel ?",
+        "reponse": {
+            "1": "Albert Einstein",
+            "2": "Henri Bacquerel",
+            "3": "Alfred Nobel"
+        },
+        "valide": "2",
+        "repondu": "0"
+    },
+    "10": {
+        "name": "Travail au laboratoire",
+        "panneau": "assets/panneaux/10.jpg",
+        "audio": "assets/audio/10.webm",
+        "vu": false,
+        "question": "Avec quoi faut-il rincer la pechblende ?",
+        "reponse": {
+            "1": "De l'acide sulfurique",
+            "2": "De l'acide chlorhydrique",
+            "3": "De la javel"
+        },
+        "valide": "1",
+        "repondu": "0"
+    },
+    "11": {
+        "name": "Mesurer la radioactivité",
+        "panneau": "assets/panneaux/11.jpg",
+        "audio": "assets/audio/11.webm",
+        "vu": false,
+        "question": "Quel est l'ancien nom de la radioactivité ?",
+        "reponse": {
+            "1": "Les rayons radioactifs",
+            "2": "Les rayons gamma",
+            "3": "Les rayons uraniques"
+        },
+        "valide": "3",
+        "repondu": "0"
+    },
+    "12": {
+        "name": "La mort de Pierre",
+        "panneau": "assets/panneaux/12.jpg",
+        "audio": "assets/audio/12.webm",
+        "vu": false,
+        "question": "Comment est mort Pierre ?",
+        "reponse": {
+            "1": "Il s'est fait assasiné",
+            "2": "Il a été renversé",
+            "3": "Il a fait une crise cardiaque"
+        },
+        "valide": "2",
+        "repondu": "0"
+    },
+    "13": {
+        "name": "Polémique et médiatisation",
+        "panneau": "assets/panneaux/13.jpg",
+        "audio": "assets/audio/13.webm",
+        "vu": false,
+        "question": "En quelle année Marie Curie s'est-elle présenté à l'académie des sciences ?",
+        "reponse": {
+            "1": "1908",
+            "2": "1915",
+            "3": "1911"
+        },
+        "valide": "3",
+        "repondu": "0"
+    },
+    "14": {
+        "name": "Second prix Nobel",
+        "panneau": "assets/panneaux/14.jpg",
+        "audio": "assets/audio/14.webm",
+        "vu": false,
+        "question": "Quelle étude a permis à Marie d'obtenir un second prix Nobel ?",
+        "reponse": {
+            "1": "L'étude du radium",
+            "2": "L'étude du francium",
+            "3": "L'étude du polonium"
+        },
+        "valide": "1",
+        "repondu": "0"
+    },
+    "15": {
+        "name": "Marie, un symbole",
+        "panneau": "assets/panneaux/15.jpg",
+        "audio": "assets/audio/15.webm",
+        "vu": false,
+        "question": "Marie était-elle engagée dans les luttes féministes ?",
+        "reponse": {
+            "1": "Oui",
+            "2": "Non"
+        },
+        "valide": "2",
+        "repondu": "0"
+    }
+}

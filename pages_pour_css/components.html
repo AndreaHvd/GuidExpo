@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="test.css">
+    <script src="js/function.js"></script>
+    <script src="js/mainAudio.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="play-pause pause"></div>
+    <div class="time">
+        <span id="aNow"></span> / <span id="aTime"></span>
+    </div>
+
+    <!-- (D) SEEK BAR -->
+
+    <div id="back"><input id="duration" type="range" min="0" max="100" value="0" step="1"></div>
+    <script>
+        window.addEventListener('load', function() {
+            audioSetup();
+        });
+    </script>
+
+</body>
+
+</html>
+
+
+<!--bouton continuer dans la page avatar/pseudo-->
+<input class="form__bouton-continuer" type="button" value="Continuer">
+
+
+
+
+<!-- boutons pour le choix des réponses dans le quiz -->
+<div class="reponses">
+
+    <div>
+        <input type="checkbox" id="toggle__1" value="1" name="reponse"></input>
+        <label class="reponses__bouton" for="toggle__1"><?= $reponse ?></label>
+    </div>
+    <div>
+        <input type="checkbox" id="toggle__32" value="32" name="reponse"></input>
+        <label class="reponses__bouton" for="toggle_2"><?= $reponse ?></label>
+    </div>
+    <div>
+        <input type="checkbox" id="toggle__3" value="3" name="reponse"></input>
+        <label class="reponses__bouton" for="toggle_3"><?= $reponse ?></label>
+    </div>
+</div>
+<!--Fin boutons réponses du quiz-->
+
+
+
+
+<!--Bouton valider réponse quiz-->
+<div class="bouton__valider__reponses">
+    <a class="valider__reponses__texte" href="#">
+        <p>Valider</p>
+    </a>
+</div>
+
+
+
+
+<!--bouton fleche et fleche v2-->
+<div class="return">
+    <a href="#" class="bouton-fleche">
+        <svg class="bouton-fleche__fleche" width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="bouton-fleche__fleche" d="M8 1L2.36744 5.06796C0.709398 6.26543 0.7094 8.73457 2.36744 9.93204L8 14" stroke="#DA9B51" stroke-width="2"/>
+    </svg>
+    </a>
+</div>
+
+<a href="#" class="bouton-fleche bouton-fleche-v2">
+    <svg class="bouton-fleche__fleche" width="9" height="15" viewBox="0 0 9 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 1L2.36744 5.06796C0.709398 6.26543 0.7094 8.73457 2.36744 9.93204L8 14" stroke="#DA9B51" stroke-width="2"/>
+    </svg>
+</a>
+
+
+<!--bouton retour flèche marron-->
+<a class="bouton-fleche-marron" href="#">
+    <img class="fleche-marron" src="fleche2-marron.png">
+</a>
+
+
+
+
+
+
+
+<!--Bouton logo guidexpo qui ramène à la page expositions-->
+<a href="#">
+    <img class="guidexpo-img" src="guidexpo_blanc.png" alt="GuidExpo Logo">
+</a>
+
+
+
+
+<!--Bouton pour accéder au chat -->
+<a class="bouton__chat" href="#"><img class="logo-tchat" src="logo-tchat-blanc.png"></a>
+
+
+
+<!--bouton-retour-a-la-carte-->
+<a href="#"><img class="bouton-parcours" src="assets/target.svg" /></a>
+
+
+
+<!--bouton numero etape sur la carte etape faite (vert)-->
+<a class="bouton__etape__faite" href="#">
+    <p>1</p>
+</a>
+
+
+
+<!--bouton numero etape sur la carte etape pas faite (jaune)-->
+<a class="bouton__etape__pasfaite" href="#">
+    <p>1</p>
+</a>
+
+
+<!--zone de remplissage du commentaire-->
+<form name="formulaire" class="commentaire">
+    <p>
+        <textarea type="text" placeholder="BLABLABLA"></textarea>
+    </p>
+</form>
+
+
+
+<!-- Bouton final retour à l'accueil -->
+<a href="#" class="bouton-final-retour__lien">
+    <div class="bouton-final-retour">
+        Retour a l'accueil
+    </div>
+</a>
+
+
+<!--Lecteur audio-->
+
+<script src="js/mainAudio.js"></script>
+<div class="play-pause"></div>
+<div class="time">
+    <span id="aNow"></span> / <span id="aTime"></span>
+</div>
+<div id="back"><input id="duration" type="range" min="0" max="100" value="0" step="1"></div>
+<script>
+    window.addEventListener('load', function() {
+        audioSetup();
+    });
+</script>
+
+
+<!--Rating (les etoiles)-->
+<div class="rating">
+    <a href="#5" title="Donner 5 étoiles">★</a>
+    <a href="#4" title="Donner 4 étoiles">★</a>
+    <a href="#3" title="Donner 3 étoiles">★</a>
+    <a href="#2" title="Donner 2 étoiles">★</a>
+    <a href="#1" title="Donner 1 étoile">★</a>
+</div>

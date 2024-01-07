@@ -1,0 +1,17 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+body {
+    width: 375px;
+    height: 812px;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

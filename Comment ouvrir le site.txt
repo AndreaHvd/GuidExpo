@@ -1,0 +1,2 @@
+dans la fenetre de developpement des navigateurs mettre au format responsive avec le deuxième
+logo en haut à gauche et donner les dimmensions 375 x 812

@@ -1,0 +1,246 @@
+.main-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-column {
+    flex-direction: column;
+}
+
+.return {
+    position: fixed;
+    z-index: 100;
+    top: 11%;
+    left: 3%;
+}
+
+.logo__debut {
+    filter: invert(100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.intro {
+    width: 150%;
+}
+
+.quiz__toggle__title {
+    width: 80%;
+    margin: 3% auto;
+    text-align: center;
+}
+
+.choice {
+    height: 10%;
+}
+
+p {
+    margin: 2% 0;
+}
+
+.little {
+    font-size: 1rem;
+}
+
+.select>div {
+    margin: 5%;
+}
+
+.avatars__top {
+    display: flex;
+    flex-direction: row;
+}
+
+.avatars__bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    z-index: 100;
+    background-color: #846868;
+    height: 10%;
+    width: 100vw;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+}
+
+.menu_expo {
+    flex-direction: column;
+}
+
+.exposition {
+    margin-top: 100px;
+}
+
+.carte {
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    padding-top: 15%;
+    overflow: hidden;
+}
+
+.carte>img {
+    position: absolute;
+    margin-bottom: 5%;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: -3%;
+    width: 20%;
+}
+
+.bouton-1 {
+    top: -10px;
+    left: 45%;
+    color: black;
+}
+
+.bouton-2 {
+    top: 10px;
+    left: 27%;
+    color: black;
+}
+
+.bouton-3 {
+    top: 35px;
+    left: 5%;
+    color: black;
+}
+
+.bouton-4 {
+    top: 60px;
+    left: 32%;
+    color: black;
+}
+
+.bouton-5 {
+    top: 20px;
+    left: 65%;
+    color: black;
+}
+
+.bouton-6 {
+    top: 90px;
+    left: 65%;
+    color: black;
+}
+
+.bouton-7 {
+    top: 55px;
+    left: 25%;
+    color: black;
+}
+
+.bouton-8 {
+    top: 150px;
+    left: 83%;
+    color: black;
+}
+
+.bouton-9 {
+    top: 155px;
+    left: 50%;
+    color: black;
+}
+
+.bouton-10 {
+    top: 110px;
+    left: 15%;
+    color: black;
+}
+
+.bouton-11 {
+    top: 180px;
+    left: 35%;
+    color: black;
+}
+
+.bouton-12 {
+    top: 225px;
+    left: 82%;
+    color: black;
+}
+
+.bouton-13 {
+    top: 90px;
+    left: 68%;
+    color: black;
+}
+
+.bouton-14 {
+    top: 185px;
+    left: 40%;
+    color: black;
+}
+
+.bouton-15 {
+    top: 210px;
+    left: 15%;
+    color: black;
+}
+
+.panneau-quiz {
+    overflow-y: hidden;
+}
+
+.suivant {
+    display: none;
+}
+
+.reponses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 35vh;
+}
+
+.reponses>div {
+    margin: 1% 0;
+    text-align: center;
+}
+
+.next_quiz {
+    transform: rotate(180deg);
+}
+
+.score {
+    text-align: center;
+}
+
+.classement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2%;
+    font-weight: bold;
+}
+
+.coupe {
+    margin: 5%;
+    width: 15%;
+}
+
+.avatar {
+    width: 20%;
+}

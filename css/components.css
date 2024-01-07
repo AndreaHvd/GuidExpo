@@ -1,0 +1,771 @@
+/* Bouton langue composé d'une balise a contenant une balise p puis une balise img */
+
+
+/* a */
+
+.langue__bouton {
+    text-decoration: none;
+    color: black;
+    margin: 5%;
+    height: 20%;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* p */
+
+.langue__bouton__texte {
+    font-size: 150%;
+    width: 60%;
+    margin: 5%;
+}
+
+
+/* img */
+
+.langue__bouton__drapeau {
+    margin: 5%;
+    height: 60%;
+    width: 25%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/*page choix quizz normal ou simple : utilisation du input avec un form et tout*/
+
+#toggle__yes,
+#toggle__no {
+    display: none;
+}
+
+.choice {
+    width: 300;
+    height: 15%;
+    padding: 5%;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#toggle__yes:checked~.choice,
+#toggle__no:checked~.choice {
+    background-color: #ffe6a5;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/* bouton flèche retour
+Pour le "bouton avancer" (celui qui est plus gros) dans les premières pages, utilisez les deux classes bouton-fleche et bouton-fleche-v2 sur le même <a> et remplacer bouton-fleche__fleche par la v2*/
+
+.bouton-fleche {
+    text-decoration: none;
+    color: black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 0;
+    background-color: white;
+    margin-top: 25px;
+}
+
+.bouton-fleche__fleche {
+    height: 40%;
+    width: 40%;
+}
+
+
+/* spécifique au bouton flèche avancer */
+
+.bouton-fleche-v2 {
+    display: none;
+    height: 50px;
+    width: 50px;
+    transform: rotate(180deg);
+    background-color: white;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/*bouton flèche retour marron*/
+
+.bouton-fleche-marron {
+    margin: 5%;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+/*------------ FIN --------------*/
+
+
+/* bouton selection d'expo vraiment fini, faites varier la hauteur en % en fonction de l'image */
+
+.panneau-exposition__img {
+    height: auto;
+    width: auto;
+    max-width: 90vw;
+}
+
+.panneau-exposition {
+    border-radius: 15px;
+    height: max-content;
+    width: max-content;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    margin: 5%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/* checked (avatar)*/
+
+.toggle-avatar {
+    display: none;
+}
+
+.choice-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.choice-avatar__img {
+    height: 100%;
+    width: auto;
+}
+
+.toggle-avatar:checked~.choice-avatar {
+    border: 8px solid #ffd15c;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/* c'est le bouton continuer dans la page avatar pseudo (IL FONCTIONNE AUSSI POUR LE BOUTON ENVOYER À LA FIN)*/
+
+.form__bouton-continuer {
+    width: 120px;
+    height: 40px;
+    margin: 5% 5% 0% 5%;
+    border-radius: 30px;
+    font-size: 1em;
+    background-color: #ffd15c;
+    border: none;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.form__bouton-continuer:active {
+    color: black;
+}
+
+.form__bouton-terminer {
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 1em;
+    background-color: #ffd15c;
+    border: none;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.form__bouton-terminer:active {
+    color: black;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/* bouton terminer visite version <a> et son conteneur*/
+
+.conteneur__terminer-visite {
+    width: 100%;
+    margin-top: 65%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.form__bouton-terminer-v2 {
+    text-decoration: none;
+    color: black;
+    width: 180px;
+    height: 40px;
+    margin: 5%;
+    border-radius: 30px;
+    font-size: 1em;
+    background-color: #ffd15c;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0px;
+}
+
+.form__bouton-terminer-v2:active {
+    color: rgb(81, 81, 81);
+    background-color: #dcb551;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/*boutons pour le choix des réponses dans le quiz*/
+
+#toggle__1,
+#toggle__2,
+#toggle__3 {
+    display: none;
+}
+
+.reponses__bouton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    width: 281px;
+    height: 8vh;
+    background-color: #ffffff;
+    border-radius: 47px;
+    box-shadow: #000000 0px 0px 5px;
+}
+
+#toggle__1:checked~.reponses__bouton,
+#toggle__2:checked~.reponses__bouton,
+#toggle__3:checked~.reponses__bouton {
+    background-color: #ffe6a5;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/* Bouton passer (dans le quiz) */
+
+.passer__bouton {
+    margin-top: 8%;
+}
+
+.passer__texte {
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+    text-decoration-line: underline;
+    color: #797979;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/*affichage de la réponse selectionnée en jaune quand on clique dessus*/
+
+.toggle__reponse {
+    display: none;
+}
+
+.choice__reponses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11%;
+    width: 281px;
+    height: 48px;
+    background: #ffffff;
+    border-radius: 47px;
+}
+
+.toggle__reponse:checked~.choice__reponses {
+    background-color: #ffe6a7;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/*bouton valider réponses quiz*/
+
+.bouton__valider__reponses {
+    display: none;
+    text-align: center;
+    width: 200px;
+    height: 57px;
+    border: none;
+    border-radius: 30px;
+    background: #ffffff;
+    box-shadow: #000000 0px 0px 10px;
+    margin-top: 5%;
+}
+
+.valider__reponses__texte {
+    width: 250px;
+    height: 60px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration-line: none;
+    color: #000000;
+    margin-top: -1%;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/* formulaire du pseudo */
+
+.entrer_nom {
+    margin: 5%;
+    height: 50px;
+    width: 210px;
+    border-radius: 20px;
+    padding: 0 10px 0 29px;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/* barre de recherche */
+
+.recherche {
+    border-radius: 50px;
+    border: none;
+    padding-left: 10px;
+    padding-top: 2px;
+    background-color: #d9d9d9;
+    height: 30px;
+    background: url("../assets/loupe.png");
+    filter: invert(100%);
+    background-position: right;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+.Rechercher {
+    opacity: 70%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+    border: none;
+    width: 190px;
+    background-color: #d9d9d9;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/* BOUTON PLAY PAUSE TRO STYLÉ */
+
+.play-pause {
+    margin: 0% 5% 0% 5%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffd15c;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    background-image: url("../assets/play.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 60%;
+}
+
+.play-pause-checked {
+    background-image: url("../assets/pause.png");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/* bouton logo guidexpo qui ramène à la page expositions */
+
+.guidexpo-img {
+    height: 100px;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/*bouton pour accéder au chat*/
+
+.bouton__chat {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffd15c;
+}
+
+.logo-tchat {
+    width: 26px;
+    height: 26px;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/* Bouton numéro étape sur la carte*/
+
+
+/*bouton étape faite (vert)*/
+
+.bouton__etape__faite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 5px solid #cff072;
+    text-decoration: none;
+    position: relative;
+    z-index: 50;
+}
+
+.bouton__etape__faite p {
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+/*bouton étape pas faite (jaune)*/
+
+.bouton__etape__pasfaite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 5px solid #ffd15c;
+    text-decoration: none;
+    position: relative;
+    z-index: 50;
+}
+
+.bouton__etape__pasfaite p {
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+/* ---------- FIN ----------- */
+
+
+/*bouton retour carte*/
+
+.bouton-parcours {
+    margin-right: 10px;
+}
+
+
+/* ---------- FIN ----------*/
+
+
+/*separation menu page*/
+
+.separation {
+    height: 10%;
+    width: 100%;
+}
+
+
+/* ---------- FIN ----------*/
+
+
+/* Panneau expo au dessus de l'audio (+ son conteneur) */
+
+.conteneur__panneau-avec-audio {
+    width: 100%;
+    height: max-content;
+    min-height: 70vh;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteneur__panneau-avec-audio>* {
+    text-align: center;
+}
+
+.background {
+    height: 100vh;
+    border-radius: 60px;
+    background-color: #f9f7f0;
+}
+
+.panneau-avec-audio {
+    width: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.conteneur-audio {
+    margin-top: 5%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    width: 90%;
+    padding: 5%;
+}
+
+.conteneur-audio>* {
+    margin: 2% 0;
+}
+
+
+/* ---------- FIN ----------*/
+
+
+/* PAGE FINALE */
+
+
+/* Rating (les etoiles) */
+
+.rating a {
+    float: right;
+    color: #aaa;
+    text-decoration: none;
+    font-size: 3em;
+    transition: color 0.4s;
+}
+
+.rating a:hover,
+.rating a:focus,
+.rating a:hover~a,
+.rating a:focus~a {
+    color: orange;
+    cursor: pointer;
+}
+
+
+/* ---------- FIN ----------*/
+
+
+/* CSS pour note.php */
+
+.conteneur__note {
+    position: fixed;
+    margin-top: 35%;
+    background-color: #f9f7f0;
+    width: 100%;
+    height: 75%;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteneur__note>h2 {
+    padding: 5% 5% 0% 5%;
+    text-align: center;
+}
+
+.conteneur__note>h3 {
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/* ---------- FIN ----------*/
+
+
+/* CSS pour note.php */
+
+.conteneur__note {
+    margin-top: 40%;
+    background-color: #f9f7f0;
+    width: 100%;
+    height: 75%;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteneur__note>h2 {
+    padding: 5% 5% 0% 5%;
+    text-align: center;
+}
+
+.conteneur__note>h3 {
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/* ---------- FIN ----------*/
+
+
+/* Zone remplissage commentaire */
+
+.form-fin {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.note__commentaire {
+    border-style: none;
+    border-radius: 20px;
+    width: 80vw;
+    height: 20vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+textarea:focus {
+    border-color: transparent;
+}
+
+textarea::placeholder {
+    color: #c6c6c6;
+}
+
+
+/* ---------- FIN ----------*/
+
+
+/* Zone remplissage commentaire */
+
+.form-fin {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.note__commentaire {
+    border-style: none;
+    border-radius: 20px;
+    width: 80vw;
+    height: 20vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 5%;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    background-color: white;
+    resize: none;
+}
+
+textarea:focus {
+    border-color: transparent;
+}
+
+textarea::placeholder {
+    color: #c6c6c6;
+}
+
+
+/* ---------- FIN ----------*/
+
+
+/* Bouton final retour à l'accueil */
+
+.bouton-final-retour {
+    width: 185px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 1em;
+    background-color: rgba(132, 104, 104, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bouton-final-retour__lien {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* ---------- FIN ---------- */
+
+.message-chat {
+    margin: 0% 5% 0% 5%;
+}
